@@ -7,6 +7,13 @@ window.TrelloPowerUp.initialize({
       text: 'Obter número do grupo',
       callback: getGroupNumber
     }];
+  },
+  'show-settings': function (t, options) {
+    return t.popup({
+      title: 'Configurações',
+      url: 'settings.html', // este arquivo precisa existir na raiz
+      height: 184
+    });
   }
 });
 
