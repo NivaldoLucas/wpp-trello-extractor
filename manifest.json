@@ -8,7 +8,7 @@
       }
     ],
     "show-settings": {
-      "url": "https://wpp-trello-extractor.netlify.app/settings.html/settings.html",
+      "url": "https://wpp-trello-extractor.netlify.app/settings.html",
       "height": 150
     }
   },

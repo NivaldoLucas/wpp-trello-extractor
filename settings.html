@@ -15,17 +15,17 @@
 
   <script>
     const t = TrelloPowerUp.iframe();
-
-    const saveSettings = () => {
+  
+    window.saveSettings = () => {
       const instance = document.getElementById('instance').value;
       const token = document.getElementById('token').value;
       const clientToken = document.getElementById('clientToken').value;
-
+  
       if (!instance || !token || !clientToken) {
         alert("Preencha todos os campos.");
         return;
       }
-
+  
       t.set('board', 'shared', {
         zapi_instance: instance,
         zapi_token: token,
