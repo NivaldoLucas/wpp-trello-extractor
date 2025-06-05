@@ -1,0 +1,22 @@
+{
+  "name": "WhatsApp Group Info Extractor",
+  "capabilities": {
+    "card-buttons": [
+      {
+        "text": "Obter número do grupo",
+        "callback": "getGroupNumber"
+      }
+    ],
+    "show-settings": {
+      "url": "./settings.html",
+      "height": 150
+    }
+  },
+  "authorization": {
+    "read": true,
+    "write": true
+  },
+  "icon": "https://res.cloudinary.com/dje1ooet0/image/upload/v1749146615/Playlist_cover_icon_k1fnj0.png",
+  "version": "1.0",
+  "id": "whatsapp-group-extractor"
+}
