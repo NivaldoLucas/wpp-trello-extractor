@@ -30,7 +30,7 @@ function getGroupNumber(t) {
         return;
       }
 
-      const encodedLink = encodeURIComponent(groupLink);
+      //const encodedLink = encodeURIComponent(groupLink);
       const url = `https://api.z-api.io/instances/${instance}/token/${token}/group-metadata/${encodedLink}`;
 
       try {
